@@ -1,6 +1,7 @@
 <# 
 Adjust the attribues of Exchange Rooms in bulk using CSV input. It adds attribute values based on what is found in the columns of the
-csv and assigns them in the proper place in Exchange. For On Prem Active Directory Room Objects, it skips them and adds to a CSV that
+csv and assigns them in the proper place in Exchange. It also adds Zoom Room date to the Phone attribute for better Zoom Room tracking. 
+For On Prem Active Directory Room Objects, it skips them and adds to a CSV that
 is exported at the end. This also assigns rooms to room lists (for Room Finder) if defined in the appropriate column. 
 
 This script does not affect the display name of the room, although this could be easily modified to include it. 
